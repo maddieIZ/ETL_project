@@ -1,6 +1,6 @@
 # ETL_project
 
-In this project i downloaded data from https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases as CSV files. the data include number of confirmed case of COVID-19 and the number of death in each country. 
+In this project i downloaded data from https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases as CSV files. the data include number of confirmed case of COVID-19 and the number of death in each country. I delete those columns from CSV files that i did not need, just keep data for April.
 
 I trannsfer the death data to tables (deaths_us and deaths_global ) in PstgreSQL database .
 the first challenge was to create view (death_all) to union global and us data and create another view to have data group by country
